@@ -1,0 +1,27 @@
+# Dataset — too large for git, back up to Google Drive instead
+Weld_dataset/
+weld images/
+
+# Model weights — too large for git
+runs/
+*.pt
+*.onnx
+*.ncnn
+*.torchscript
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+.Python
+
+# VS Code
+.vscode/
+
+# Temporary files
+*.txt.bak
+scanner.py
+project_scan.txt
+
+# Miniconda
+*.conda
